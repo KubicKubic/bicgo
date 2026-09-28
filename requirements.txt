@@ -1,0 +1,9 @@
+# The project is developed and tested against the shared JAX environment
+#   /mnt/pfs/guoyuchong/guoyuchong/.venv-gnn-jax
+# Install the CUDA build of JAX matching your driver if you build a new venv.
+jax>=0.4.38
+jaxlib>=0.4.38
+flax>=0.10.2
+optax>=0.2.4
+numpy>=1.26
+pytest>=8.0
